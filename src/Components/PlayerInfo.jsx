@@ -5,9 +5,9 @@ export default function Info({name , symbol , isActive}){
     const [isEditing , setEditing] = useState(false);
     const [playerName , setName] = useState(name);
     if(isEditing){
-        console.log("Edit Buttong Clicked");
+        console.log("Edit Button Clicked");
     }
-    else console.log("Save Buttong Clicked");
+    else console.log("Save Button Clicked");
     function handleEditClick(){
         setEditing((editing)=>!editing)
     }  
